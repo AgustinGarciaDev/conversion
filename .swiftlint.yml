@@ -1,0 +1,24 @@
+disable_rules: 
+    - identifier_name
+  - variable_name
+  - type_name
+
+    
+opt_in_rules:
+    - empty_count 
+
+excluded:
+    - Carthage
+    - Pods
+    
+line_legth:
+    warning:150
+    error:200
+    
+identifier_name:
+  allowed_symbols: "_"
+  
+type_name:
+  allowed_symbols: "_"
+
+
